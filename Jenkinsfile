@@ -17,7 +17,13 @@ pipeline{
         }
         stage('Terraform version'){
              steps{
+<<<<<<< HEAD
                  sh 'terraform --version3'
+||||||| fc75168
+                 sh 'terraform --version1'
+=======
+                 sh 'terraform --version2'
+>>>>>>> df478b35e5521986216377285b60432f047cf50f
                 }
         }
         stage("Sonarqube Analysis "){
