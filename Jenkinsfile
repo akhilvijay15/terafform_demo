@@ -17,7 +17,7 @@ pipeline{
         }
         stage('Terraform version'){
              steps{
-                 sh 'terraform --version'
+                 sh 'terraform --version1'
                 }
         }
         stage("Sonarqube Analysis "){
